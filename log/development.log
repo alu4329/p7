@@ -217,3 +217,107 @@ ActionController::RoutingError (No route matches [GET] "/home.html"):
 
 Started GET "/assets/rails.png" for 10.0.2.2 at 2013-04-20 13:39:20 +0100
 Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/static_pages/home.html" for 10.0.2.2 at 2013-04-22 13:44:03 +0100
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.6ms)
+Compiled jquery.js  (23ms)  (pid 1439)
+Compiled jquery_ujs.js  (0ms)  (pid 1439)
+Compiled application.js  (74ms)  (pid 1439)
+Completed 200 OK in 134ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-04-22 13:44:04 +0100
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-04-22 13:44:04 +0100
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-04-22 13:44:04 +0100
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-04-22 13:44:04 +0100
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-04-22 13:44:04 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-04-22 13:44:04 +0100
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/static_pages/home.html" for 10.0.2.2 at 2013-04-22 13:48:44 +0100
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 321ms (Views: 320.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-04-22 13:48:45 +0100
+Served asset /static_pages.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-04-22 13:48:45 +0100
+Served asset /application.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-04-22 13:48:45 +0100
+Served asset /jquery.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-04-22 13:48:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-04-22 13:48:46 +0100
+Served asset /static_pages.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-04-22 13:48:46 +0100
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-04-22 13:48:46 +0100
+Served asset /rails.png - 304 Not Modified (15ms)
+
+
+Started GET "/static_pages/home.html" for 10.0.2.2 at 2013-04-22 13:50:31 +0100
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 280ms (Views: 279.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 10.0.2.2 at 2013-04-22 13:50:32 +0100
+Served asset /static_pages.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 10.0.2.2 at 2013-04-22 13:50:32 +0100
+Served asset /static_pages.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2013-04-22 13:50:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2013-04-22 13:50:32 +0100
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2013-04-22 13:50:32 +0100
+Served asset /application.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2013-04-22 13:50:32 +0100
+Served asset /jquery.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/rails.png" for 10.0.2.2 at 2013-04-22 13:50:33 +0100
+Served asset /rails.png - 304 Not Modified (9ms)
